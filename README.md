@@ -9,17 +9,20 @@ Este projeto implementa uma função para ler um arquivo CSV e inserir os dados 
 A estrutura do projeto é a seguinte:
 
 ```
-├── .env
-├── poetry.lock
-├── pyproject.toml
-├── README.md
-├── src
-│   └── dataingestor
-│           ├── __init__.py
-│           └── ingestor.py
-├── tests
-│   └── test_ingestor.py
-└── img
+├── dataIngestor
+│   ├── .env
+│   ├── poetry.lock
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── src
+│   │   └── dataingestor
+│   │           ├── __init__.py
+│   │           └── ingestor.py
+│   └── tests
+│       └── test_ingestor.py
+├── img
+│   └── ...
+└── README.md
 ```
 
 ## Requisitos
